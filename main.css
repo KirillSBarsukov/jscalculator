@@ -1,13 +1,27 @@
 
+* {
+    box-sizing: border-box;
+}
  body {
     background: #ffffff;
     background-image: linear-gradient(to right, white, rgba(0, 0, 255, 0.575));
 }
 .main {
     position: absolute;
-    margin-left: 40%;
+    margin-left: 20%;
     margin-top: 20%;
 }
+.btn {
+    margin-right: 5px;
+    margin-top: 5px;
+    width: 60px; 
+    height: 60px;
+}
+.form-group {
+    width: 268px;
+    height: 60%;
+}
+
 .numberButton {
     background-color: white;
     width: 50px;
